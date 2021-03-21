@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:columnCount="1"
+    android:id="@+id/gl_now_playing">
+    <ImageView
+        android:id="@+id/song_album_art_now"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:src="@mipmap/ic_play_button"/>
+    <TextView
+        android:id="@+id/song_title_now"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Now Playing"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:maxLines="3"/>
+
+</GridLayout>
